@@ -1,0 +1,236 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: auto;
+    gap: 20px;
+    height: 45px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+input[type="text"] {
+    border-radius: 10px; /* 모서리를 둥글게 설정 */
+    padding: 8px; /* 입력 필드 내 여백 설정 */
+    border: 1px solid #dbdbdb; /* 테두리 설정 */
+    width: 220px; /* 너비 설정 */
+    background-color: #fafafa;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.left-sidebar {
+    width: 170px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-right: 1px solid #dbdbdb;
+    padding-top: 80px; 
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+.left-sidebar .logo {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    padding: 10px;
+}
+
+.left-sidebar .logo img {
+    width: 120px; /* 로고의 너비 조정 */
+    height: auto;  /* 자동으로 높이 비율 유지 */
+    margin top: 0;
+    margin-right: 10px;
+    margin-left: 18px;
+}
+
+.left-sidebar .menu-item img {
+    width: 30px; /* 원하는 너비로 설정 */
+    height: 30px; /* 원하는 높이로 설정 */
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.left-sidebar .menu-item svg {
+    width: 30px; /* 원하는 너비로 설정 */
+    height: 30px; /* 원하는 높이로 설정 */
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.left-sidebar .menu-item {
+    display: flex;
+    align-items: center;
+    margin: 40px 0; /* 각 메뉴 항목 사이의 여백 */
+    margin-top: 20px;
+}
+
+.left-sidebar .menu-item:last-child {
+    margin-top: auto; /* 'More' 메뉴 항목을 하단으로 밀어 넣기 */
+    margin-bottom: ;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+}
+
+.feed {
+    width: 600px;
+    margin-left: 180px;
+}
+
+.stories {
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 0;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.story img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 2px solid #dbdbdb;
+}
+
+.story span {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.post {
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px; 
+    position: relative;
+}
+
+.post-header .profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-header svg {
+    position: absolute;
+    right: 10px; /* 오른쪽 끝에서 10px 떨어지도록 설정 */
+    top: 50%; /* 세로 중앙 정렬 */
+    transform: translateY(-50%); /* 세로 중앙 정렬을 위한 변환 */
+    cursor: pointer; /* 클릭할 수 있는 커서 표시 */
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post-content {
+    margin: 5px 0; /* 위아래 간격을 5px로 설정 */
+    font-size: 14px; /* 글자 크기 조정 */
+}
+
+.post-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* 아이콘 간 간격을 자동으로 일정하게 */
+    padding: 10px;
+}
+
+.post-icons svg {
+    width: 24px; /* 모든 아이콘의 너비를 동일하게 설정 */
+    height: 24px;
+}
+
+.sidebar {
+    width: 300px;
+    margin-left: 20px;
+}
+
+.suggestions {
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.suggestion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.suggestion img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.username {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.follow-text {
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+button {
+    background-color: #ffffff;
+    color: rgb(0, 140, 255);
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+p1, p2 {
+    font-size: 14px; /* 글자 크기 조정 */
+    color: #888888; /* 글자 색을 회색으로 설정 */
+}
+
+p{
+    margin: 0;
+}
+
+h5 {
+    color: gray; /* 글자 색을 회색으로 설정 */
+}
