@@ -19,10 +19,10 @@ body {
 }
 
 input[type="text"] {
-    border-radius: 10px; /* 모서리를 둥글게 설정 */
-    padding: 8px; /* 입력 필드 내 여백 설정 */
-    border: 1px solid #dbdbdb; /* 테두리 설정 */
-    width: 220px; /* 너비 설정 */
+    border-radius: 10px; 
+    padding: 8px; 
+    border: 1px solid #dbdbdb; 
+    width: 220px; 
     background-color: #fafafa;
 }
 
@@ -58,23 +58,23 @@ input[type="text"] {
 }
 
 .left-sidebar .logo img {
-    width: 120px; /* 로고의 너비 조정 */
-    height: auto;  /* 자동으로 높이 비율 유지 */
+    width: 120px; 
+    height: auto;  
     margin top: 0;
     margin-right: 10px;
     margin-left: 18px;
 }
 
 .left-sidebar .menu-item img {
-    width: 30px; /* 원하는 너비로 설정 */
-    height: 30px; /* 원하는 높이로 설정 */
+    width: 30px; 
+    height: 30px; 
     margin-right: 15px;
     margin-left: 20px;
 }
 
 .left-sidebar .menu-item svg {
-    width: 30px; /* 원하는 너비로 설정 */
-    height: 30px; /* 원하는 높이로 설정 */
+    width: 30px; 
+    height: 30px; 
     margin-right: 15px;
     margin-left: 20px;
 }
@@ -82,12 +82,12 @@ input[type="text"] {
 .left-sidebar .menu-item {
     display: flex;
     align-items: center;
-    margin: 40px 0; /* 각 메뉴 항목 사이의 여백 */
+    margin: 40px 0; 
     margin-top: 20px;
 }
 
 .left-sidebar .menu-item:last-child {
-    margin-top: auto; /* 'More' 메뉴 항목을 하단으로 밀어 넣기 */
+    margin-top: auto; 
     margin-bottom: ;
     position: fixed;
     bottom: 0;
@@ -152,10 +152,10 @@ input[type="text"] {
 
 .post-header svg {
     position: absolute;
-    right: 10px; /* 오른쪽 끝에서 10px 떨어지도록 설정 */
-    top: 50%; /* 세로 중앙 정렬 */
-    transform: translateY(-50%); /* 세로 중앙 정렬을 위한 변환 */
-    cursor: pointer; /* 클릭할 수 있는 커서 표시 */
+    right: 10px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    cursor: pointer;
 }
 
 .post-image {
@@ -163,19 +163,19 @@ input[type="text"] {
 }
 
 .post-content {
-    margin: 5px 0; /* 위아래 간격을 5px로 설정 */
-    font-size: 14px; /* 글자 크기 조정 */
+    margin: 5px 0;
+    font-size: 14px; 
 }
 
 .post-icons {
     display: flex;
     align-items: center;
-    gap: 20px; /* 아이콘 간 간격을 자동으로 일정하게 */
+    gap: 20px;
     padding: 10px;
 }
 
 .post-icons svg {
-    width: 24px; /* 모든 아이콘의 너비를 동일하게 설정 */
+    width: 24px;
     height: 24px;
 }
 
@@ -184,20 +184,20 @@ input[type="text"] {
     margin-left: 20px;
 }
 
-.suggestions {
+.rightbars {
     background-color: white;
     padding: 10px;
     border-radius: 3px;
 }
 
-.suggestion {
+.rightbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
 }
 
-.suggestion img {
+.rightbar img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -223,8 +223,8 @@ button {
 }
 
 p1, p2 {
-    font-size: 14px; /* 글자 크기 조정 */
-    color: #888888; /* 글자 색을 회색으로 설정 */
+    font-size: 14px; 
+    color: gray;
 }
 
 p{
@@ -232,5 +232,16 @@ p{
 }
 
 h5 {
-    color: gray; /* 글자 색을 회색으로 설정 */
+    color: gray; 
+}
+
+footer {
+    margin-top: 60px;
+    font-size: 10px;
+    color: #969696;
+    line-height: 18px;
+}
+
+footer p {
+    margin-bottom: 10px;
 }
